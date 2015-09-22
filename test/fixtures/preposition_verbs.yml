@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  verb: MyString
+  translation: MyString
+  preposition: MyString
+  sentence_with_blank: MyString
+  test_date: 2015-09-22
+  correct: false
+
+two:
+  verb: MyString
+  translation: MyString
+  preposition: MyString
+  sentence_with_blank: MyString
+  test_date: 2015-09-22
+  correct: false
