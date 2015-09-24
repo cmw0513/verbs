@@ -1,0 +1,7 @@
+<h1><%= @verb.verb %></h1>
+<form action="/play/translation" method="get">
+  <label for="guess">Enter English translation</label>
+  <input type="text" name="guess">
+  <input type="hidden" value=<%=@verb%>>
+  <input type="submit">
+</form>

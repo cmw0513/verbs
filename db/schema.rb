@@ -11,14 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150922140246) do
+ActiveRecord::Schema.define(version: 20150922145129) do
 
   create_table "preposition_verbs", force: :cascade do |t|
     t.string   "verb"
     t.string   "translation"
     t.string   "preposition"
     t.string   "sentence_with_blank"
-    t.date     "test_date"
     t.boolean  "correct",             default: false
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false

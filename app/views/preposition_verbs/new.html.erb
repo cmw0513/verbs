@@ -1,0 +1,21 @@
+<h1>Add a new verb</h1>
+<%= form_for(@preposition_verb) do |f| %>
+  <p>
+    <%= f.label :verb %>
+    <%= f.text_field :verb %>
+  </p>
+  <p>
+    <%= f.label :translation %>
+    <%= f.text_field :translation %>
+  </p>
+  <p>
+    <%= f.label :preposition %>
+    <%= f.text_field :preposition %>
+  </p>
+  <p>
+    <%= f.label :sentence_with_blank %>
+    <%= f.text_field :sentence_with_blank %>
+  </p>
+  <%= f.submit %>
+<% end %>
+<%= link_to "Home", home_path %>

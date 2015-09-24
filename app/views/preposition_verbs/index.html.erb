@@ -1,0 +1,10 @@
+<h1>Preposition Verbs</h1>
+<% @verbs.each do |prep_verb| %>
+  <h2><%= prep_verb.verb %></h2>
+  <ul>
+    <li>translation: <%= prep_verb.translation %></li>
+    <li>preposition: <%= prep_verb.preposition %></li>
+    <li><%= prep_verb.sentence_with_blank %></li>
+  </ul>
+<% end %>
+<%= link_to "home", home_path %>
